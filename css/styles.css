@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+
+
+.table th {
+	width: 240px;
+	cursor: pointer;	
+	background: url(../icons/arrows.png) no-repeat;
+	background-position: center right;
+}
+.table th.empty {
+	width: 25px;
+	background:none;
+}
+.table th.headerSortDown{
+	background: url(../icons/arrow_down.png) no-repeat;
+	background-position: center right;
+}
+
+.table th.headerSortUp{
+	background: url(../icons/arrow_up.png) no-repeat;
+	background-position: center right;
+}
+
+.table td.locked {
+	width: 25px;
+	cursor: pointer;
+	background: url(../icons/lock.png) no-repeat;
+	background-position: center left;
+}
+.table td.unlocked {
+	width: 25px;
+	cursor: pointer;
+	background: url(../icons/unlock.png) no-repeat;
+	background-position: center left;
+}
+.table td.delete, td.cancel {
+	width: 25px;
+	cursor: pointer;
+	background: url(../icons/delete.png) no-repeat;
+	background-position: center left;
+}
+
+.btn-custom {
+	padding: 0 6px;
+	margin-left: 5px;
+}
+#error-msg {
+	margin-left: 10px;
+	color: red;
+	display: none;
+}
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { float: left; clear:left; padding: 0 0 0 5px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 45%; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; padding: 0 5px 0 0; }
+.ui-timepicker-rtl dl dt{ float: right; clear: right; }
+.ui-timepicker-rtl dl dd { margin: 0 45% 10px 10px; }
